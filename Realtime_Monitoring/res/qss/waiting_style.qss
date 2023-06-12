@@ -1,0 +1,43 @@
+/**
+    该页面为浅紫色皮肤
+*/
+#frame_background{
+border-image:url(:/res/pic/background-3.png);
+}
+
+
+#frame_pic{
+background-color:#b1bffc
+}
+
+#label_title
+{
+    font: 20pt "宋体";
+    color: rgb(255, 255, 255);
+}
+#label_word_2,#label_word_3
+{
+    font: 75 15pt "Arial";
+    color:#7185ff;
+}
+#label_word
+{
+    font: 75 25pt "Arial";
+    color:#7185ff;
+
+}
+#wait_pic
+{
+    border-image:url(:/res/pic/waiting.png);
+}
+
+QProgressBar {
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+QProgressBar::chunk {
+    background-color: #05B8CC;
+    width: 20px;
+    margin: 0.5px;
+}

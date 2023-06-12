@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HomeFragment">
+
+    <!--地图-->
+    <com.amap.api.maps.TextureMapView
+        android:id="@+id/map_view"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_time"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="40dp"-->
+
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="#ffffff"-->
+<!--        android:textColor="#333333"-->
+<!--        android:textSize="20sp" />-->
+    <!--设置出行方式-->
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="出行方式："
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="步行出发"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp">
+
+            <TextView
+                android:id="@+id/tv_start"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="当前所在地"
+                android:textColor="#000"
+                android:textSize="@dimen/sp_14" />
+
+            <EditText
+                android:id="@+id/et_start_address"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_toRightOf="@+id/tv_start"
+                android:background="@null"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/et_start_address"
+                android:background="#000" />
+
+            <TextView
+                android:id="@+id/tv_end"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_below="@+id/et_start_address"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:text="前往目的地"
+                android:textColor="#000"
+                android:textSize="@dimen/sp_14" />
+
+            <EditText
+                android:id="@+id/et_end_address"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/et_start_address"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:layout_toRightOf="@+id/tv_end"
+                android:background="@null"
+                android:hint="请输入目的地"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/et_end_address"
+                android:background="#000" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout >

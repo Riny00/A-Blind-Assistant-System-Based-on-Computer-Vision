@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/qss/login_style.qss</file>
+        <file>res/qss/waiting_style.qss</file>
+        <file>res/qss/user_style.qss</file>
+    </qresource>
+</RCC>

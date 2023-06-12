@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">语音导航助手</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="account_hint">亲输入用户名</string>
+    <string name="pwd_hint">亲输入密码</string>
+    <string name="app_id">bf5c4117</string>
+</resources>

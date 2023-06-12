@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/pic/3.png</file>
+        <file>res/pic/4.png</file>
+        <file>res/pic/background-3.png</file>
+        <file>res/pic/background-4.png</file>
+        <file>res/pic/pwd.png</file>
+        <file>res/pic/qq.png</file>
+        <file>res/pic/qq-hover.png</file>
+        <file>res/pic/qq-old.png</file>
+        <file>res/pic/user_name.png</file>
+        <file>res/pic/wb.png</file>
+        <file>res/pic/wb-hover.png</file>
+        <file>res/pic/weibo.png</file>
+        <file>res/pic/weixin.png</file>
+        <file>res/pic/wx.png</file>
+        <file>res/pic/wx-hover.png</file>
+        <file>res/pic/map.png</file>
+        <file>res/pic/waiting.png</file>
+        <file>res/pic/btn_map.png</file>
+        <file>res/pic/btn_setting.png</file>
+        <file>res/pic/computer.png</file>
+        <file>res/pic/btn_serch.png</file>
+        <file>res/pic/history.png</file>
+        <file>res/pic/luxian.png</file>
+        <file>res/pic/weizhi.png</file>
+        <file>res/pic/xingren.png</file>
+        <file>res/pic/exit.png</file>
+        <file>res/pic/drawpath.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,250 @@
+
+#menu_top,#menu_bottom
+{
+    background-color: #b1bffc;
+}
+
+#label
+{
+    border-image:url(:/res/pic/computer.png);
+    margin-top:5px;
+}
+#label_2
+{
+    color:#3f6183;
+    font: 16pt "宋体";
+}
+#label_3,#label_16
+{
+    color:#3f6183;
+    font: 12pt "宋体";
+}
+#label_5,#label_6,#label_8,#label_9,#label_11
+{
+    color:#3f6183;
+    font: 75 20pt "楷体";
+}
+#label_4,#label_7,#label_10,#label_17,#label_18,#label_19,#label_20,#label_21,#label_22
+{
+	color:#3f6183;
+    font: 75 15pt "楷体";
+}
+#label_12,#label_13,#label_14,#label_15
+{
+    color:#3f6183;
+    font: 75 13pt "楷体";
+}
+
+#btn_map{  
+	border: none;
+	background-color: #b1bffc;
+	background-image: url(:/res/pic/btn_map.png);	/* 背景图片 */
+	background-position: center;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: bottom;				/* 文本的位置 */
+	font-size: 15px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_map:hover{
+    border: none;
+	background-color: #478cb6;
+	background-image: url(:/res/pic/btn_map.png);	/* 背景图片 */
+	background-position: center;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: bottom;				/* 文本的位置 */
+	font-size: 15px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_map:pressed{
+    border: none;
+	background-color: #b1bffc;
+	background-image: url(:/res/pic/btn_map.png);	/* 背景图片 */
+	background-position: center;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: bottom;				/* 文本的位置 */
+	font-size: 15px;
+	color: #000000;					/* 文本颜色 */
+}
+
+#btn_data{  
+	border: none;
+	background-color: #b1bffc;
+	background-image: url(:/res/pic/btn_serch.png);	/* 背景图片 */
+	background-position: center;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: bottom;				/* 文本的位置 */
+	font-size: 15px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_data:hover{
+    border: none;
+	background-color: #478cb6;
+	background-image: url(:/res/pic/btn_serch.png);	/* 背景图片 */
+	background-position: center;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: bottom;				/* 文本的位置 */
+	font-size: 15px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_data:pressed{
+    border: none;
+	background-color: #b1bffc;
+	background-image: url(:/res/pic/btn_serch.png);	/* 背景图片 */
+	background-position: center;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: bottom;				/* 文本的位置 */
+	font-size: 15px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_setting{  
+	border: none;
+	background-color: #b1bffc;
+	background-image: url(:/res/pic/btn_setting.png);	/* 背景图片 */
+	background-position: center;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: bottom;				/* 文本的位置 */
+	font-size: 15px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_setting:hover{
+    border: none;
+	background-color: #478cb6;
+	background-image: url(:/res/pic/btn_setting.png);	/* 背景图片 */
+	background-position: center;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: bottom;				/* 文本的位置 */
+	font-size: 15px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_setting:pressed{
+    border: none;
+	background-color: #b1bffc;
+	background-image: url(:/res/pic/btn_setting.png);	/* 背景图片 */
+	background-position: center;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: bottom;				/* 文本的位置 */
+	font-size: 15px;
+	color: #000000;					/* 文本颜色 */
+}
+
+#btn_weizhi{  
+	border: none;
+	background-color: #f0f0f0;
+	background-image: url(:/res/pic/weizhi.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_weizhi:hover{
+    border: none;
+	background-color: #478cb6;
+	background-image: url(:/res/pic/weizhi.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_weizhi:pressed{
+    border: none;
+	background-color: #b1bffc;
+	background-image: url(:/res/pic/weizhi.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_mangren{  
+	border: none;
+	background-color: #f0f0f0;
+	background-image: url(:/res/pic/xingren.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_mangren:hover{
+    border: none;
+	background-color: #478cb6;
+	background-image: url(:/res/pic/xingren.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_mangren:pressed{
+    border: none;
+	background-color: #b1bffc;
+	background-image: url(:/res/pic/xingren.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_exit{  
+	border: none;
+	background-color: #f0f0f0;
+	background-image: url(:/res/pic/exit.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_exit:hover{
+    border: none;
+	background-color: #478cb6;
+	background-image: url(:/res/pic/exit.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_exit:pressed{
+    border: none;
+	background-color: #b1bffc;
+	background-image: url(:/res/pic/exit.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_history{  
+	border: none;
+	background-color: #f0f0f0;
+	background-image: url(:/res/pic/drawpath.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_history:hover{
+    border: none;
+	background-color: #478cb6;
+	background-image: url(:/res/pic/drawpath.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+#btn_history:pressed{
+    border: none;
+	background-color: #b1bffc;
+	background-image: url(:/res/pic/drawpath.png);	/* 背景图片 */
+	background-position: left;			/* 背景图片的位置 */
+	background-repeat: no-repeat;			/* 设置背景图像的平铺模式 */
+	text-align: right;				/* 文本的位置 */
+	font-size: 18px;
+	color: #000000;					/* 文本颜色 */
+}
+

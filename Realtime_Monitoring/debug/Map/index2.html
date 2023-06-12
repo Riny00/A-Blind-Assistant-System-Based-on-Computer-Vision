@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+</head>
+<p id="car">car:</p>
+<p id="y">y:</p>
+<body>
+    <script src="qwebchannel.js"></script>
+    <script type="text/javascript">
+       
+        new QWebChannel(qt.webChannelTransport, function (channel) {
+                var mybridge = channel.objects.mybridge;
+             
+                mybridge.dataChanged.connect(function (arg) { 
+                    car.innerHTML = "car1:" + (arg.x) ;
+                    y.innerHTML = "y:" + arg.y ;
+					
+                });
+
+            });
+    </script>
+    
+</body>
+
+</html>

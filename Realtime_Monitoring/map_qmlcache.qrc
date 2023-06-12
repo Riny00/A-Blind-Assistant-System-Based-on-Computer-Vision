@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/">
+        <file alias="res/Map/Location.html">res/Map/Location.html</file>
+        <file alias="res/Map/DrawPath.html">res/Map/DrawPath.html</file>
+    </qresource>
+</RCC>
