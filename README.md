@@ -24,29 +24,29 @@ Server文件夹为LinuxC环境的服务端代码，用于部署在阿里云服�
 
 ## 系统架构
 
-<img src="images\11.png" alt="11" style="zoom:50%;" />
+<img src="https://github.com/Riny00/A-Blind-Assistant-System-Based-on-Computer-Vision/blob/main/images/11.png?raw=true" alt="11" style="zoom:50%;" />
 
 ## 系统部分功能截图
 
 ### 《语音导航助手APP》界面展示
 
-<img src="images\location.png" style="zoom: 50%;" />
+<img src="https://github.com/Riny00/A-Blind-Assistant-System-Based-on-Computer-Vision/blob/main/images/location.png?raw=true" style="zoom: 50%;" />
 
 
 
-<img src="images\login.png" alt="login" style="zoom:50%;" />
+<img src="https://github.com/Riny00/A-Blind-Assistant-System-Based-on-Computer-Vision/blob/main/images/login.png?raw=true" alt="login" style="zoom:50%;" />
 
-<img src="images\wake-up.png" style="zoom:50%;" />
+<img src="https://github.com/Riny00/A-Blind-Assistant-System-Based-on-Computer-Vision/blob/main/images/wake-up.png?raw=true" style="zoom:50%;" />
 
 ### 客户端界面展示
 
-<img src="images\login2.png" style="zoom: 33%;" />
+<img src="https://github.com/Riny00/A-Blind-Assistant-System-Based-on-Computer-Vision/blob/main/images/login2.png?raw=true" style="zoom: 33%;" />
 
-<img src="images\main.png" style="zoom: 50%;" />
+<img src="https://github.com/Riny00/A-Blind-Assistant-System-Based-on-Computer-Vision/blob/main/images/main.png?raw=true" style="zoom: 50%;" />
 
 ### 硬件部分物体检测与测量距离
 
-<img src="D:\Programmingtools\QT\code\images\detect.png" style="zoom: 80%;" />
+<img src="https://github.com/Riny00/A-Blind-Assistant-System-Based-on-Computer-Vision/blob/main/images/detect.png?raw=true" style="zoom: 80%;" />
 
 ### 项目小结
 
